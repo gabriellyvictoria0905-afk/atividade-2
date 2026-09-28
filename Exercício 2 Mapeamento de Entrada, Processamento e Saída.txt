@@ -1,0 +1,21 @@
+Algoritmo "vendas_padaria"
+
+Var
+   paesVendidos, broasVendidas : inteiro
+   valorPaes, valorBroas, valorTotal, valorPoupado : real
+
+Inicio
+   escreva("Informe a quantidade de paes vendidos: ")
+   leia(paesVendidos)
+   escreva("Informe a quantidade de broas vendidas: ")
+   leia(broasVendidas)
+
+   valorPaes <- paesVendidos * 0.80
+   valorBroas <- broasVendidas * 2.50
+   valorTotal <- valorPaes + valorBroas
+   valorPoupado <- valorTotal * 0.10
+
+   escreval("")
+   escreval("Valor total arrecadado: R$ ", valorTotal:6:2)
+   escreval("Valor destinado a poupanca: R$ ", valorPoupado:6:2)
+Fimalgoritmo

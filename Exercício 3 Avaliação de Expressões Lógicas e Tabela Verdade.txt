@@ -1,0 +1,22 @@
+Algoritmo "teste_expressoes"
+
+Var
+   numero1, numero2, numero3 : inteiro
+   valorLogico : logico
+   resultado1, resultado2, resultado3, resultado4 : logico
+
+Inicio
+   numero1 <- 5
+   numero2 <- 8
+   numero3 <- 12
+   valorLogico <- VERDADEIRO
+
+   resultado1 <- (numero1 + numero2 > numero3) e (valorLogico = VERDADEIRO)
+   resultado2 <- (numero3 - numero1 = numero2) ou (numero2 > numero3)
+   resultado3 <- nao (numero1 * 2 > numero2) e (numero3 > numero1 + numero2)
+   resultado4 <- (numero2 % 2 = 0) e ((numero1 > 10) ou (numero3 \ 2 = 6))
+
+   escreval("Resultado da Expressao 1: ", resultado1)
+   escreval("Resultado da Expressao 2: ", resultado2)
+   escreval("Resultado da Expressao 3: ", resultado3)
+   escreval("Resultado da Expressao 4: ", resultado
